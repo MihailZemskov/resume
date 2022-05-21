@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mihail, resume">
+    <meta name="description" content="Это сайт - резюме Михаила Земскова">
+    <link rel="stylesheet" href="style.css">
+    <title>Mihail Zemskov Resume</title>
+</head>
+
+<body>
+    <div class="container">
+
+    <div class="info">
+        <img src="avatar.jpg" alt="Михаил Земсков" class="avatar">
+
+        <div class="info-text">
+            <h1>Михаил Земсков</h1>
+            <p>Я работаю на заводе <strong>Профессионал</strong> инженером-технологом, <em>очень</em> хочу освоить
+                <strong>IT</strong> специальность и работать <strong>frontend-Разработчиком!</strong>
+            </p>
+            <p>Люблю смотреть <em>Футбол</em>, гулять с <em>друзьями</em> и рыбачить с <em>папой</em>.</p>
+            <h2>Список социальных сетей:</h2>
+            <a href="https://vk.com/mishkapodmishka" target="_blank">Vk</a>|<a href="https://www.youtube.com/account"
+                target="_blank">youtube</a>
+        </div>
+    </div>
+
+    <div class="card bg-yellow">
+        <h2>Мои Хобби</h2>
+
+        <ol class="list">
+            <li>Футбол</li>
+            <li>Рыбалка</li>
+            <li>Качалка</li>
+            <li>Просмотр сериалов</li>
+        </ol>
+    </div>
+
+    <div class="card bg-red">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <!-- <thead>
+            <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+             </tr>
+              </thead> -->
+            <tbody>
+                <tr>
+                    <td>Школа</td>
+                    <td>ученик</td>
+                    <td>2007-2017</td>
+                </tr>
+                <tr>
+                    <td>Университет</td>
+                    <td>Студент</td>
+                    <td>2017-2021</td>
+                </tr>
+                <tr>
+                    <td>Завод</td>
+                    <td>инженер-технолог</td>
+                    <td>2021-сейчас</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card bg-green ">
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <input class="btn" type="submit" value="Отправить!">
+        </form>
+    </div>
+
+</div>
+</body>
+
+</html>
